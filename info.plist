@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.usto.alfred-confluence-search</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>EB659F0C-7997-4F23-AECB-2B470BDA0ECE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>072D55A5-F67B-47F0-ABEF-1D45225C6EEA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Confluence Quick Search v0.0.1</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>c</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Confluence Quick Search</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EB659F0C-7997-4F23-AECB-2B470BDA0ECE</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>072D55A5-F67B-47F0-ABEF-1D45225C6EEA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Confluence Quick Search using NodeJS
+
+I was using alfred-confluence by skleinei https://github.com/skleinei/alfred-confluence
+
+Unfortunately this was based on Python2 which is not part of MacOS Monterey anymore.
+
+Since I am a NodeJS developer I created my own script which uses NodeJS
+
+Make sure you've set the following Workflow Environdment Variables
+- BASE_URL
+- USERNAME
+- API_TOKEN</string>
+	<key>uidata</key>
+	<dict>
+		<key>072D55A5-F67B-47F0-ABEF-1D45225C6EEA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>275</integer>
+			<key>ypos</key>
+			<integer>105</integer>
+		</dict>
+		<key>EB659F0C-7997-4F23-AECB-2B470BDA0ECE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>105</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>API_TOKEN</key>
+		<string></string>
+		<key>BASE_URL</key>
+		<string></string>
+		<key>USERNAME</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>BASE_URL</string>
+		<string>API_TOKEN</string>
+		<string>USERNAME</string>
+	</array>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
