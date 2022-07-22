@@ -29,7 +29,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Confluence Quick Search v0.0.3</string>
+	<string>Confluence Quick Search</string>
 	<key>objects</key>
 	<array>
 		<dict>
