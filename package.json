@@ -1,6 +1,6 @@
 {
   "name": "alfred-confluence-search",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Alfred workflow to search through Atlassian Confluence",
   "author": {
     "name": "Bas van Dijk",
