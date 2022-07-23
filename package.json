@@ -2,6 +2,9 @@
   "name": "alfred-confluence-search",
   "version": "0.0.5",
   "description": "Alfred workflow to search through Atlassian Confluence",
+  "license": "MIT",
+  "homepage": "https://github.com/basvdijk/alfred-confluence-search",
+  "repository": "basvdijk/alfred-confluence-search",
   "author": {
     "name": "Bas van Dijk",
     "email": "support@usto.nl",
@@ -26,7 +29,6 @@
     "confluence",
     "atlassian"
   ],
-  "license": "ISC",
   "dependencies": {
     "alfred-notifier": "^0.2.3",
     "alfy": "^1.0.0",
