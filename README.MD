@@ -1,5 +1,7 @@
 # alfred-confluence-search
 
+<img src="assets/alfred-workflow-preview.png">
+
 An [Alfred workflow](https://www.alfredapp.com/) to easily search through [Atlassian Confluence](https://www.atlassian.com/software/confluence) written in [NodeJS](https://nodejs.dev/) using [Alfy](https://github.com/sindresorhus/alfy)
 
 Inspired by [Alfred Confluence written in Python]((https://github.com/skleinei/alfred-confluence)) by [skleinei](https://github.com/skleinei)
@@ -14,11 +16,15 @@ npm install --global alfred-confluence-search
 
 ## Workflow Environment Variables
 
-This workflow uses 3 Workflow Environment Variables
+<img src="assets/alfred-workflow-variables.png">
 
-- `BASE_URL` - When your Confluence url is https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping the `BASE_URL` is `https://myawesomecompany.atlassian.net`
-- `USERNAME` username to login into your Atlassian account
-- `API_TOKEN` your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens
+1. Click on the `[X]` (red arrow) to open the Workflow Environment Variables window
+2. Set the value of the 3 Workflow Environment Variables:
+   - `BASE_URL`
+        When your Confluence url is https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping the `BASE_URL` is `https://myawesomecompany.atlassian.net`
+   - `USERNAME`
+        username to login into your Atlassian account
+   - `API_TOKEN` your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens
 
 ## Usage
 
