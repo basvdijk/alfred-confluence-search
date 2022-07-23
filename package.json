@@ -1,7 +1,7 @@
 {
   "name": "alfred-confluence-search",
   "version": "0.0.7",
-  "description": "Alfred workflow to search through Atlassian Confluence",
+  "description": "Alfred workflow to search through Atlassian Confluence written in NodeJS",
   "license": "MIT",
   "homepage": "https://github.com/basvdijk/alfred-confluence-search",
   "repository": "basvdijk/alfred-confluence-search",
