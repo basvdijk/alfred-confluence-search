@@ -1,4 +1,4 @@
-# alfred-confluence-search
+# Alfred Confluence Search workflow
 
 <img src="assets/alfred-workflow-preview.png">
 
