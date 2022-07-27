@@ -1,6 +1,6 @@
 {
   "name": "alfred-confluence-search",
-  "version": "0.0.13",
+  "version": "0.0.12",
   "description": "Alfred workflow to search through Atlassian Confluence written in NodeJS",
   "license": "MIT",
   "homepage": "https://github.com/basvdijk/alfred-confluence-search",
@@ -13,6 +13,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "deploy": "npx np",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
