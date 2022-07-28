@@ -6,6 +6,10 @@ An [Alfred workflow](https://www.alfredapp.com/) to easily search through [Atlas
 
 Inspired by [Alfred Confluence written in Python2](https://github.com/skleinei/alfred-confluence) by [skleinei](https://github.com/skleinei)
 
+## Automatic notification of updates
+The workflow informs you when a new version is available
+![image](https://user-images.githubusercontent.com/644550/181432647-27ebc1f7-da6f-4816-a96d-2854f30eef30.png)
+
 ## Install
 
 ```sh
