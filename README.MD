@@ -4,7 +4,7 @@
 
 An [Alfred workflow](https://www.alfredapp.com/) to easily search through [Atlassian Confluence](https://www.atlassian.com/software/confluence) written in [NodeJS](https://nodejs.dev/) using [Alfy](https://github.com/sindresorhus/alfy)
 
-Inspired by [Alfred Confluence written in Python](https://github.com/skleinei/alfred-confluence) by [skleinei](https://github.com/skleinei)
+Inspired by [Alfred Confluence written in Python2](https://github.com/skleinei/alfred-confluence) by [skleinei](https://github.com/skleinei)
 
 ## Install
 
