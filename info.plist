@@ -60,7 +60,7 @@
 				<key>runningsubtext</key>
 				<string>Searching…</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"
+				<string>npx run-node index.js "$1"
 </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
