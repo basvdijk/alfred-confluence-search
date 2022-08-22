@@ -113,16 +113,14 @@ Unfortunately this is based on Python 2 which is not part of macOS Monterey anym
 
 Since I am a NodeJS developer I created my own script which uses NodeJS.
 
-Make sure you've set the following Workflow Environment Variables:
+You’ll need to supply the required User Configuration:
 
-BASE_URL
-When your Confluence url is https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping the BASE_URL is https://myawesomecompany.atlassian.net
-
-USERNAME
-Username to login into your Atlassian account
-
-API_TOKEN 
-Your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens</string>
+* Base URL:
+    * When your Confluence url is `https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping` your Base URL is `https://myawesomecompany.atlassian.net`
+* Username
+    * The username you use to log in to your Atlassian account
+* API token
+    * Your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens</string>
 	<key>uidata</key>
 	<dict>
 		<key>072D55A5-F67B-47F0-ABEF-1D45225C6EEA</key>
@@ -140,20 +138,71 @@ Your Atlassian API token from https://id.atlassian.com/manage-profile/security/a
 			<real>105</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>API_TOKEN</key>
-		<string></string>
-		<key>BASE_URL</key>
-		<string></string>
-		<key>USERNAME</key>
-		<string></string>
-	</dict>
-	<key>variablesdontexport</key>
+	<key>userconfigurationconfig</key>
 	<array>
-		<string>BASE_URL</string>
-		<string>API_TOKEN</string>
-		<string>USERNAME</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens</string>
+			<key>label</key>
+			<string>API token</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>API_TOKEN</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>If your Confluence url is https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping your Base URL is https://myawesomecompany.atlassian.net</string>
+			<key>label</key>
+			<string>Base URL</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>BASE_URL</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Your username for logging in to your Atlassian account</string>
+			<key>label</key>
+			<string>Username</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>USERNAME</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>0.0.1</string>

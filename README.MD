@@ -19,17 +19,18 @@ npm install --global alfred-confluence-search
 
 *Requires [Node.js](https://nodejs.org) 14+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
-## Workflow Environment Variables
+## Workflow User Configuration
 
 <img src="assets/alfred-workflow-variables.png">
 
 1. Click on the `[X]` (red arrow) to open the Workflow Environment Variables window
-2. Set the value of the 3 Workflow Environment Variables:
-   - `BASE_URL`
-        When your Confluence url is https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping the `BASE_URL` is `https://myawesomecompany.atlassian.net`
-   - `USERNAME`
-        username to login into your Atlassian account
-   - `API_TOKEN` your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens
+2. Set the value of the 3 Workflow User Configuration values:
+    * Base URL:
+        * When your Confluence url is `https://myawesomecompany.atlassian.net/wiki/spaces/MYK/pages/1323642387/Bootstrapping` your Base URL is `https://myawesomecompany.atlassian.net`
+    * Username
+        * The username you use to log in to your Atlassian account
+    * API token
+        * Your Atlassian API token from https://id.atlassian.com/manage-profile/security/api-tokens
 
 ## Usage
 
